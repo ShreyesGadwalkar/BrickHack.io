@@ -1,7 +1,9 @@
-.header {
-  text-align: center;
-  -webkit-text-decoration: wavy;
-          text-decoration: wavy;
-  font: Jokerman;
+@font-face {
+  font-family: Ancient;
+  src: url(Ancient-Medium.ttf);
+}
+
+.subhead {
+  font-family: Ancient;
 }
 /*# sourceMappingURL=demo.css.map */

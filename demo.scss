@@ -1,4 +1,8 @@
-.header{
-    text-align: center;
-    font-family: 'FoundersGroteskCond-SmBd', sans-serif;
+@font-face {
+    font-family: Ancient;
+    src: url(Ancient-Medium.ttf);
+}
+
+.subhead{
+    font-family: Ancient;
 }
