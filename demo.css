@@ -51,6 +51,16 @@ h2 {
 
 a {
   color: white;
+  text-decoration: none;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 li {
@@ -60,21 +70,5 @@ li {
           margin-block-start: 1em;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
-  -webkit-padding-start: 40px;
-          padding-inline-start: 40px;
-}
-
-h1 {
-  font-family: Ancient;
-  font: 500;
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
 }
 /*# sourceMappingURL=demo.css.map */
