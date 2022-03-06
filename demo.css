@@ -5,6 +5,23 @@
 
 .primary-nav {
   display: inline;
+  color: black;
+}
+
+.primary-nav > li {
+  display: inline;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar {
@@ -15,7 +32,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 20px;
+  margin: 0;
 }
 
 h2 {
@@ -23,6 +40,17 @@ h2 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  text-align: center;
+}
+
+.corona {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+a {
+  color: white;
 }
 
 li {
@@ -43,5 +71,10 @@ li {
 h1 {
   font-family: Ancient;
   font: 500;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=demo.css.map */
