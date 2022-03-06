@@ -30,8 +30,13 @@
     
  }
 
- .navbar :hover{ 
+ .navbar :hover > a{ 
     color: gold;
+    border: solid;
+    border-style:inset;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
  }
   
  .navbar > a{ 
