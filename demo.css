@@ -3,7 +3,18 @@
   src: url(Ancient-Medium.ttf);
 }
 
-.subhead {
+h1 {
   font-family: Ancient;
+  background: #b3a0d1;
+  display: inline;
+}
+
+.primary-nav {
+  display: inline;
+}
+
+nav {
+  display: inline;
+  background: black;
 }
 /*# sourceMappingURL=demo.css.map */

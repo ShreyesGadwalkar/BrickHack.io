@@ -1,8 +1,21 @@
 @font-face {
     font-family: Ancient;
     src: url(Ancient-Medium.ttf);
-}
-
-.subhead{
+  }
+  
+  
+  h1{
     font-family: Ancient;
-}
+    background: rgb(179, 160, 209);
+    display: inline;
+  }
+
+  .primary-nav{
+      display: inline;
+  }
+
+  nav{
+      display: inline;
+      background: rgb(0, 0, 0);
+  }
+  
