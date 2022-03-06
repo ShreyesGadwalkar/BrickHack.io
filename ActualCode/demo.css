@@ -215,8 +215,8 @@ body, html {
 
 .corona {
   position: absolute;
-  top: 40vh;
-  right: 30vw;
+  top: 50vh;
+  right: 20vw;
 }
 
 .GenericBrandSlogan {
@@ -224,7 +224,7 @@ body, html {
   font-size: xx-large;
   position: absolute;
   top: 30vh;
-  right: 50vw;
+  right: 30vw;
   font-weight: 1000;
   color: purple;
 }
