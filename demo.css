@@ -3,18 +3,31 @@
   src: url(Ancient-Medium.ttf);
 }
 
-h1 {
-  font-family: Ancient;
-  background: #b3a0d1;
-  display: inline;
-}
-
 .primary-nav {
   display: inline;
+  list-style: none;
 }
 
-nav {
+.primary-nav > li{
+  list-style: none;
   display: inline;
-  background: black;
+}
+
+.navbar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: #8b2a8b;
+  float: left;
+
+
+}
+
+.right-navbar {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: Ancient;
 }
 /*# sourceMappingURL=demo.css.map */
