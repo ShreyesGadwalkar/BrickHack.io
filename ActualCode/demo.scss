@@ -179,31 +179,16 @@
   
   .corona{
     position: absolute;
-    top: 500px;
-    right: 500px;
-    transform: rotate(0deg);
+    top: 40vh;
+    right: 30vw;
   }
-
-//   .corona-left{
-//     position: absolute;
-//     top: 500px;
-//     right: 650px;
-//     transform: rotate(-35deg);
-//   }
-
-//   .corona-right{
-//     position: absolute;
-//     top: 500px;
-//     right: 350px;
-//     transform: rotate(+35deg);
-//   }
 
 .GenericBrandSlogan{
     font-family: Boldy;
     font-size: xx-large;
     position: absolute;
-    top: 350px;
-    right:500px;
+    top: 30vh;
+    right:50vw;
     font-weight: 1000;
     color: purple;
 }

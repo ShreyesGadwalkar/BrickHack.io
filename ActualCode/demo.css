@@ -215,18 +215,16 @@ body, html {
 
 .corona {
   position: absolute;
-  top: 500px;
-  right: 500px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  top: 40vh;
+  right: 30vw;
 }
 
 .GenericBrandSlogan {
   font-family: Boldy;
   font-size: xx-large;
   position: absolute;
-  top: 350px;
-  right: 500px;
+  top: 30vh;
+  right: 50vw;
   font-weight: 1000;
   color: purple;
 }
