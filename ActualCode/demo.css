@@ -8,13 +8,10 @@
   src: url(Montserrat-VariableFont_wght.ttf);
 }
 
-.primary-nav {
-  display: inline;
-  color: black;
-}
-
 .primary-nav > li {
   display: inline;
+  border: white;
+  color: blue;
 }
 
 .CoronaHeader {
@@ -33,12 +30,20 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  background: #8b2a8b;
+  background: black;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0px;
   padding: 20px;
+}
+
+.navbar :hover {
+  color: gold;
+}
+
+.navbar > a {
+  color: gold;
 }
 
 h2 {
@@ -88,6 +93,7 @@ h1 {
   font-family: Ancient;
   font: 500;
   margin: 0px;
+  font-weight: bolder;
 }
 
 body {
@@ -147,8 +153,8 @@ body, html {
 }
 
 .testimonials-section > * {
-  background-color: #eee;
-  border: 2px solid black;
+  background-color: white;
+  border: 2px solid #fffbfb;
   margin: 0px;
   padding: 0px;
 }
