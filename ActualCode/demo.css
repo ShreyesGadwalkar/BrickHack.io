@@ -148,13 +148,13 @@ body, html {
 
 .testimonials-section {
   padding: 16px;
-  margin: 16px 0;
+  margin: 0px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
   gap: 10px;
-  background: black;
+  background: #042353;
 }
 
 .testimonials-section > * {
