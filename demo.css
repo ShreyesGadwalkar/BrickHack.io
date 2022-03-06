@@ -12,7 +12,7 @@
   display: inline;
 }
 
-.container {
+.CoronaHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,5 +70,118 @@ li {
           margin-block-start: 1em;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+}
+
+h1 {
+  font-family: Ancient;
+  font: 500;
+  margin: 0px;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Emily, .Sandra, .cqladie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  padding: 20px;
+  margin: 20px;
+}
+
+.mantra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: italic;
+}
+
+.testimonials-section {
+  padding: 16px;
+  margin: 16px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 10px;
+  background: black;
+}
+
+.testimonials-section > * {
+  background-color: #eee;
+  border: 2px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.final {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  text-align: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #042353;
+  color: white;
+}
+
+.boring {
+  text-align: center;
+}
+
+.gif {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mantra > * {
+  font-family: 'Holtwood One SC', serif;
+}
+
+.Store > li :hover {
+  text-decoration: underline;
+}
+
+.recipes > li :hover {
+  text-decoration: underline;
+}
+
+.footer-3 > li :hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=demo.css.map */
