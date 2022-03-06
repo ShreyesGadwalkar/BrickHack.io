@@ -215,16 +215,16 @@ body, html {
 
 .corona {
   position: absolute;
-  top: 35vh;
-  right: 20vw;
+  top: 35rem;
+  right: 20rem;
 }
 
 .GenericBrandSlogan {
   font-family: Boldy;
   font-size: xx-large;
   position: absolute;
-  top: 25vh;
-  right: 30vw;
+  top: 15rem;
+  right: 30rem;
   font-weight: 1000;
   color: purple;
 }
